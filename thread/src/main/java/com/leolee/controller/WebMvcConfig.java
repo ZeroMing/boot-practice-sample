@@ -49,8 +49,6 @@ public class WebMvcConfig implements WebMvcConfigurer {
         t.setCorePoolSize(10);
         // 最大线程数
         t.setMaxPoolSize(100);
-        // 阻塞队列最大值
-        t.setQueueCapacity(100);
         t.setThreadNamePrefix("LeoLee-Async-");
         t.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
         return t;
