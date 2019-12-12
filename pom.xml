@@ -7,6 +7,8 @@
         <module>leolee-zookeeper</module>
         <module>leolee-dubbo</module>
         <module>leolee-kafka</module>
+        <module>leolee-rabbitmq</module>
+        <module>thread</module>
         <module>leolee-netty</module>
     </modules>
     <parent>
